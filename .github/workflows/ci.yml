@@ -16,6 +16,7 @@ jobs:
 
     - name: yamlllint
       run: |
+        pip install --upgrade pip
         pip install yamllint==1.27.1
         yamllint .
 
